@@ -105,18 +105,6 @@
     text-decoration: none;
 }
 
-/* .nav__item--activ.nav__item--main::before {
-    background: url('../img/css_sprites.png') 
-    -432px -188px no-repeat;
-}
-.nav__item--activ.nav__item--feed::before {
-    background: url('../img/feed_icon-hover.png') 
-        center center no-repeat;
-}
-.nav__item--activ.nav__item--services::before {
-    background: url('../img/service_icon-hover.png') 
-        center center no-repeat;
-} */
 
 /* contacns --------------------------------- */
 
@@ -132,13 +120,69 @@
 }
 
 .contacts__shedule {
+    text-align: right;
+    position: relative;
     font-size: 14px;
     color: rgba(248, 149, 19, 0.702);
     font-weight: 700;
     text-decoration: underline;
-
+    cursor: pointer;
 }
 
+.contacts__shedule::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 15px;
+}
+
+/* выпадашка */
+
+.contacts__dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 190%;
+    left: -8000%;
+    width: 160px;
+    height: 70px;
+
+    background: #fff;
+    border: 1px solid #cacfd6;
+    border-radius: 5px;
+
+    line-height: 22px;
+}
+
+/* треугольник */
+
+.contacts__dropdown::before {
+    content: "";
+    width: 0;
+    height: 0;
+
+    border-top: 0px solid #fff;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #fff;
+    border-left: 15px solid transparent;
+
+    position: absolute;
+    top: -22%;
+    left: 80%;
+}
+
+.contacts__dropdown--color-black {
+    color: #221f1f;
+}
+
+.contacts__shedule:hover .contacts__dropdown {
+    left: 0;
+}
 
 
 
