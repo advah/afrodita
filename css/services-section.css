@@ -1,0 +1,156 @@
+.container--services {
+    width: 880px;
+}
+
+.services__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.services__item {
+    width: 28.7%;
+    margin-right: 6.8%;
+    margin-bottom: 45px;
+}
+
+.services__item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.services__pic {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.services__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.services__shadowblock {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #000;
+    opacity: .3;
+
+}
+
+.services__shadowblock-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 36%;
+    width: 100%;
+    text-align: center;
+}
+
+.services__item-title {
+    margin-bottom: 10px;
+}
+
+.services__text {
+    font-size: 14px;
+    color: rgb(34, 31, 31);
+    font-weight: 300;      
+}
+
+
+
+
+
+/* партнеры */
+.services__pic--partner {
+    margin-bottom: 0;
+}
+
+.partner__ref {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.partner__ref--flamingo {
+    width: 141px;
+    height: 63px;
+    background: url('../img/css_sprites.png') 
+    -10px -10px no-repeat;
+}
+
+.partner__ref--flamingo:hover {
+    background: url('../img/css_sprites.png') 
+    -171px -10px no-repeat;
+}
+
+.partner__ref--malibu {
+    width: 160px;
+    height: 28px;
+    background: url('../img/css_sprites.png') 
+    -332px -10px no-repeat;
+}
+
+.partner__ref--malibu:hover {
+    background: url('../img/css_sprites.png') 
+    -332px -58px no-repeat;
+}
+
+.partner__ref--lion {
+    width: 61px;
+    height: 62px;
+    background: url('../img/css_sprites.png') 
+    -10px -307px no-repeat;
+}
+
+.partner__ref--lion:hover {
+    background: url('../img/css_sprites.png') 
+    -392px -106px no-repeat;
+}
+
+.partner__ref--arni {
+    width: 125px;
+    height: 64px;
+    background: url('../img/css_sprites.png') 
+    -10px -93px no-repeat;
+}
+
+.partner__ref--arni:hover {
+    background: url('../img/css_sprites.png') 
+    -155px -93px no-repeat;
+}
+
+.partner__ref--grif {
+    width: 160px; 
+    height: 45px;
+    background: url('../img/css_sprites.png') 
+    -10px -177px no-repeat;
+}
+
+.partner__ref--grif:hover {
+    background: url('../img/css_sprites.png') 
+    -10px -242px no-repeat;
+}
+
+.partner__ref--athletic {
+    width: 42px; 
+    height: 62px;
+    background: url('../img/css_sprites.png') 
+    -91px -307px no-repeat;
+}
+
+.partner__ref--athletic:hover {
+    background: url('../img/css_sprites.png') 
+    -153px -307px no-repeat;
+}

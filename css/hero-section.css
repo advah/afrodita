@@ -1,0 +1,14 @@
+.hero {
+    height: 625px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 60px 0;
+}
+  
+.hero__pic-block {
+    width: 740px;
+    height: 486px;
+    background: url('../img/justdoit.png') 
+        center center / cover no-repeat;
+}

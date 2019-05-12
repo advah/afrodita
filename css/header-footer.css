@@ -1,0 +1,231 @@
+/* header */
+
+.header, .footer {
+    display: flex;
+    justify-content: center;
+    min-height: 75px;
+    background: #131415;
+}
+
+.ava-ref {
+    font-family: gora-free;
+    font-size: 18px;
+    color: rgb(248, 149, 19);
+    text-transform: uppercase;
+}
+
+/* nav --------------------------------- */
+
+.nav {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    display: flex;align-items: center;
+    margin-right: 25px;
+}
+
+.nav__ref {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* nav__item::before --------------------------------- */
+
+.nav__item::before {
+    content: "";
+    display: inline-flex;
+    width: 20px;
+    height: 18px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.nav__item--main::before {
+    background: url('../img/css_sprites.png') 
+    -473px -106px no-repeat;
+}
+
+
+.nav__item--feed::before {
+    background: url('../img/css_sprites.png') 
+    -392px -188px no-repeat;      
+}
+
+.nav__item--services::before {
+    background: url('../img/css_sprites.png') 
+    -472px -188px no-repeat;      
+}
+
+/* nav__item:hover --------------------------------- */
+
+.socials__title {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 10px;
+}  
+
+.nav__item:hover .nav__ref {
+    color: rgb(248, 149, 19);
+    text-decoration: underline;
+}
+
+.nav__item--main:hover::before,
+.nav__item--activ.nav__item--main::before {
+    background: url('../img/css_sprites.png') 
+    -473px -140px no-repeat;
+}
+
+.nav__item--feed:hover::before,
+.nav__item--activ.nav__item--feed::before {
+    background: url('../img/css_sprites.png') 
+    -432px -188px no-repeat;             
+}
+
+.nav__item--services:hover::before,
+.nav__item--activ.nav__item--services::before {
+    background: url('../img/css_sprites.png') 
+    -332px -226px no-repeat;        
+}
+
+/* nav__item--activ --------------------------------- */
+
+.nav__item--activ .nav__ref {
+    color: rgb(248, 149, 19);
+}
+.nav__item--activ:hover .nav__ref {
+    text-decoration: none;
+}
+
+/* .nav__item--activ.nav__item--main::before {
+    background: url('../img/css_sprites.png') 
+    -432px -188px no-repeat;
+}
+.nav__item--activ.nav__item--feed::before {
+    background: url('../img/feed_icon-hover.png') 
+        center center no-repeat;
+}
+.nav__item--activ.nav__item--services::before {
+    background: url('../img/service_icon-hover.png') 
+        center center no-repeat;
+} */
+
+/* contacns --------------------------------- */
+
+.contacts__phone {
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contacts__phone:hover {
+    text-decoration: underline;
+}
+
+.contacts__shedule {
+    font-size: 14px;
+    color: rgba(248, 149, 19, 0.702);
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+
+
+
+
+/* footer */
+
+.footer__text {
+    width: 240px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer__text a {
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer__text a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* социалки */
+
+.socials__list {
+    display: flex;
+}
+
+.socials__item {
+    margin-right: 10px;
+}
+
+.socials__ref {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.socials__ref--vk {
+    background: url('../img/css_sprites.png') 
+    -352px -106px;
+}
+
+.socials__ref--fb {
+    background: url('../img/css_sprites.png') 
+    -352px -126px;
+}
+
+.socials__ref--g {
+    background: url('../img/css_sprites.png') 
+    -352px -146px;
+}
+
+.socials__ref--tw {
+    background: url('../img/css_sprites.png') 
+    -352px -166px;
+}
+
+.socials__ref--m {
+    background: url('../img/css_sprites.png') 
+    -352px -186px;
+}
+
+
+/* социалки hover */
+
+.socials__ref--vk:hover {
+    background: url('../img/css_sprites.png') 
+    -332px -106px;
+}
+
+.socials__ref--fb:hover {
+    background: url('../img/css_sprites.png') 
+    -332px -126px;
+}
+
+.socials__ref--g:hover {
+    background: url('../img/css_sprites.png') 
+    -332px -146px;
+}
+
+.socials__ref--tw:hover {
+    background: url('../img/css_sprites.png') 
+    -332px -166px;
+}
+
+.socials__ref--m:hover {
+    background: url('../img/css_sprites.png') 
+    -332px -186px;
+}
