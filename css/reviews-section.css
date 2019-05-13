@@ -2,16 +2,15 @@
     width: 880px;
 }
 
-.reviews__list {
-    display: flex;
-    flex-direction: column;
+.reviews__content-block {
+    margin-bottom: 20px;
 }
 
 .invit {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 30px 0;
+    padding: 16px 0;
     background: #000;
 }
 

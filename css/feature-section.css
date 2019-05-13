@@ -6,7 +6,8 @@
 }
 
 .maintitle--feature {
-    color: rgb(255, 255, 255);      
+    color: rgb(255, 255, 255); 
+    margin-bottom: 50px;     
 }
 
 .feature__title {

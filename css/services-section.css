@@ -2,6 +2,10 @@
     width: 880px;
 }
 
+.maintitle__services {
+    margin-bottom: 25px;
+}
+
 .services__list {
     display: flex;
     flex-wrap: wrap;
