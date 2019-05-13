@@ -1,12 +1,13 @@
 .maintitle--lastnews {
     align-self: center;
-    padding-top: 65px;
+    padding-top: 50px;
+    margin-bottom: 0px;
 }
 
 .lastnews__block {
     display: flex;
-    padding: 30px 20px;
-    margin-bottom: 60px;
+    padding: 35px 20px;
+    margin-bottom: 10px;
 }
 
 
@@ -15,7 +16,8 @@
 }
 
 .lastnews__aside {
-    margin-bottom: 20px;
+    padding-top: 30px;
+    /* margin-bottom: 20px; */
 }
 
 .lastnews__aside-item {
@@ -55,4 +57,5 @@
 
 .lastnews__aside-period {
     color: #656464;
+    margin-bottom: 20px;
 }
