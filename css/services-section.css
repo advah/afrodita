@@ -43,8 +43,15 @@
     left: 0;
     bottom: 0;
     background: #000;
-    opacity: .3;
+    opacity: .5;
+}
 
+.services__pic:hover .services__shadowblock {
+    opacity: 0;
+} 
+
+.services__pic:hover .services__shadowblock-title {
+    font-size: 0;
 }
 
 .services__shadowblock-title {
@@ -60,6 +67,8 @@
 
 .services__item-title {
     margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .services__text {
